@@ -336,7 +336,7 @@
 					text-align:center;
 					border-bottom:1px solid #222e37;
 				}
-				.main_menu menu>li>a:hover {background:#222e37;}
+				.main_menu menu>li>a:hover {background:#222e37;cursor: pointer;}
 		.sub_menu {
 			position:relative;
 			width:100%;

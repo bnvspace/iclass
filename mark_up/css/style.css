@@ -198,8 +198,8 @@
 		white-space:nowrap;
 	
 	}
-		.main_menu menu>li:hover>a {background:#222e37;}
-	.main_menu menu>li>a:hover {color:#d34346;}
+		.main_menu menu>li:hover>a {background:#222e37;cursor: pointer;}
+	.main_menu menu>li>a:hover {color:#d34346;cursor: pointer;}
 		.sub_menu {
 			position:absolute;
 			z-index:8;
