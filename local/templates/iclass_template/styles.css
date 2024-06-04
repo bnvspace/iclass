@@ -1,0 +1,19 @@
+.top_menu ul.no-list {
+    margin-top: 11px;
+}
+
+.banner_slider-mobile {
+    height: 350px;
+}
+
+.banner_slider-img {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+@media (min-width: 992px) {
+    .banner_slide-content {
+        line-height: 347px !important;
+    }
+}

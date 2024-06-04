@@ -1,0 +1,7 @@
+@media (max-width: 795px) {
+    .scroll-table {
+        display: block;
+        overflow-x: auto;
+        border: none !important;
+    }
+}

@@ -1,0 +1,1 @@
+<? $APPLICATION->IncludeComponent("iclass:element.data", "about", array('IBLOCK_ID' => 20, 'ID' => 761)); ?>

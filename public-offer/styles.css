@@ -1,0 +1,33 @@
+.public-offer-ul li {
+    list-style-type: none !important;
+    padding-bottom: 5px;
+}
+
+.right-header div p span {
+    font-weight: bold;
+    color: #000000;
+    text-align: justify;
+}
+
+.right-header div p {
+    line-height: 20px;
+}
+
+.right-header {
+    text-align: left;
+    width: 100%;
+}
+
+.right-header div {
+    text-align: left;
+    display: inline-block
+}
+
+.public-offer-ul{
+    text-align: justify;
+}
+
+.public-offer-ul ul{
+    padding-left: 20px;
+    margin-top: 15px !important;
+}

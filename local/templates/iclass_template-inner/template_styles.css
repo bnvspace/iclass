@@ -1,0 +1,153 @@
+@media (min-width: 1371px) {
+    .banner_slide-content {
+        line-height: 347px !important;
+    }
+}
+
+@media (min-width: 1371px) {
+    .banner_slide-content {
+        line-height: 347px !important;
+    }
+}
+
+.team-pics-list tbody tr td {
+    text-align: center;
+}
+
+.breadcrumb a, .breadcrumb b {
+    font-size: 18px !important;
+}
+
+.links_block {
+    width: auto;
+    display: inline-block;
+    float: none;
+}
+
+.links_block-list {
+    column-count: 2;
+}
+
+p {
+    text-align: justify;
+}
+
+.map-level-1 {
+    margin-top: 0 !important;
+}
+
+.map-level-2 {
+    margin-top: 0 !important;
+}
+
+.map-level-0 li:not(:first-child) {
+    margin-top: 10px;
+}
+
+.map-level-0 ul li {
+    margin-top: 0 !important;
+}
+
+.event_list-item {
+    border: 2px solid #dddddd;
+}
+
+.event_item-info {
+    border: none;
+}
+
+ul li p {
+    display: inline;
+}
+
+.text-center {
+    margin-bottom: 10px !important;
+}
+
+.link_list-type2 {
+    margin-bottom: 10px;
+}
+.link_list-type2-btn {margin: auto;
+    display: block;
+background: #455769;
+    box-shadow: 0 3px 0 #2b3945;
+
+    font: 14px/33px 'PT Sans', sans-serif;
+    height: 33px;
+    padding: 0 20px;
+    min-width: 220px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 0;
+}
+.link_list-type2-btn:hover {    background: #2b3945;
+    color: #fff;
+    box-shadow: 0 3px 0 #fff;
+}
+.content {
+    padding-bottom: 0;
+}
+
+@media (max-width: 840px) {
+    .footer_banners {
+        display: inline-block;
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .footer_links {
+        margin-right: 20px !important;
+        margin-left: 20px;
+    }
+}
+
+.footer_line div a img {
+    margin: 0;
+}
+
+.footer_banners {
+    text-align: center;
+    margin-top: -32px;
+}
+
+.footer_banners div {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.footer_links {
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.news_detail_title {
+    text-align: center;
+    margin-bottom: 10px !important;
+    font: 25px/1 'PT Sans', sans-serif;
+    color: #af1f17;
+    text-transform: uppercase;
+    margin: 0 0 28px;
+    font-weight: bold;
+}
+
+.parent_div_links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container_links {
+  flex: 1 1 15%;
+  display: flex;
+  margin: 5px 5px;
+  text-align: left;
+}
+
+@media (max-width: 460px) {
+.container_links {
+  flex: 1 1 40%;
+}
+}

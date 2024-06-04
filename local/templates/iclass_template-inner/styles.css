@@ -1,0 +1,23 @@
+.eventh1 {font-size: 25px; color: #af1f17; text-transform: uppercase; margin: 0 0 28px; font-weight: bold;}
+.eventh1item {font-size: 18px; color: #2b3945; margin: 0 0 15px; text-transform: uppercase; font-weight: 700;}
+.container .link_list-type2{
+    height: 82px;}
+
+.container .link_list-type2::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.container .link_list-type2::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.container .link_list-type2::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.container .link_list-type2::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

@@ -1,0 +1,175 @@
+div.mfeedback {
+}
+
+.mfeedback p {
+    margin: 0;
+}
+
+.mf-personal-data {
+    padding-bottom: 20px;
+}
+
+div.mf-ok-text {
+    color: green;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+div.mf-name, div.mf-email, div.mf-captcha, div.mf-message {
+    padding-bottom: 0.4em;
+}
+
+div.mf-name input, div.mf-email input {
+    width: 60%;
+}
+
+div.mf-message textarea {
+    width: 60%;
+}
+
+span.mf-req {
+    color: red;
+}
+
+.def_captcha {
+    width: 250px !important;
+    margin: 5px 20px !important;
+}
+
+.iframe-container {
+    width: 330px;
+    height: 422px;
+    position: relative;
+}
+
+.iframe-container-2 {
+    width: 310px;
+    height: 422px;
+    position: absolute;
+}
+
+.iframe {
+    width: 310px;
+    height: 422px;
+    border-style: none;
+}
+
+.recaptcha-textarea-container {
+    width: 300px;
+    height: 60px;
+    border-style: none;
+    bottom: 12px;
+    left: 25px;
+    margin: 0px;
+    padding: 0px;
+    right: 25px;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
+}
+
+.recaptcha-textarea {
+    width: 250px !important;
+    height: 40px !important;
+    border: 1px solid #c1c1c1 !important;
+    margin: 10px 25px !important;
+    padding: 0px !important;
+    resize: none !important;
+}
+
+.success-ajax-submit {
+    color: #008000;
+}
+
+#form_submit_errors {
+    color: #ff0000;
+}
+
+.has-validation-callback {
+    text-align: center;
+}
+
+.NAME-mf-field, .EMAIL-mf-field, .PHONE-mf-field {
+    display: block;
+    width: 33.3%;
+    padding: 0 10px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.MESSAGE-mf-field {
+    padding: 20px 10px;
+}
+
+.mfeedback h2, .mfeedback p {
+    text-align: center;
+}
+
+.mf-captcha {
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.mf-personal-data {
+    text-align: left;
+    padding: 10px;
+}
+
+.captcha {
+    padding-left: 10px;
+}
+
+.mfeedback {
+    padding: 0 10%;
+    border: 1px red;
+}
+
+.mfeedback input[type='text'], .mfeedback textarea {
+    width: 100%;
+}
+
+.mfeedback input[type='text'] {
+    height: 30px;
+}
+
+.mfeedback input[type='submit'] {
+    width: 200px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.mfeedback form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mf-text {
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+
+#recaptcha span {
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 692px) {
+    .NAME-mf-field, .EMAIL-mf-field {
+        width: 100%;
+        padding: 0 10px;
+        float: none
+    }
+
+    .mf-captcha {
+        float: none;
+    }
+}
+
+@media (max-width: 600px) {
+  .phone_8800 {float: left;}
+}

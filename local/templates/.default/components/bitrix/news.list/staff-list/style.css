@@ -1,0 +1,29 @@
+.preview-staff {
+    padding-left: 140px;
+}
+
+@media (max-width: 340px) {
+    .preview-staff ul li {
+        font-size: 90%;
+    }
+}
+
+.staff-card-list {
+    column-count: 1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+}
+
+@media (min-width: 768px)  {
+    .staff-card {
+        display: inline-block;
+    }
+
+    .staff-card-list {
+        column-count: 2;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+    }
+}
+
+

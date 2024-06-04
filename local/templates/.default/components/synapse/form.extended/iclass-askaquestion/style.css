@@ -1,0 +1,330 @@
+
+
+.footer-form-sec{
+    background: url("/local/templates/.default/components/synapse/form.extended/iclass-askaquestion/img/footer-form-bg.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer-form-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.footer-form-div > * {
+    padding: 80px 0px;
+    min-height: 40rem;
+}
+
+.footer-form-div .left {
+    position: relative;
+}
+.footer-form-div .left .title,
+.footer-form-div .left .desc {
+    z-index: 10;
+    position: relative;
+}
+.footer-form-div .footer-form-women {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.footer-form-div .title{
+    color: #FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.footer-form-div .desc{
+    color: #FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-form-div .desc a{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFF !important;
+    margin: 5px 0px;
+    pointer-events: none;
+}
+
+.footer-form-women {
+    width: 320px;
+    float: right;
+    margin: 0px;
+}
+
+.footer-form{
+    border-radius: 4px;
+    background: #FFF;
+    padding: 50px 80px;
+    display: flex !important;
+    position: relative;
+}
+
+.footer-form form {
+    flex: 1;
+}
+
+.footer-form.sended form {
+    visibility: hidden;
+}
+
+.footer-form .success-ajax-submit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2b3945;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.footer-form input, .footer-form textarea{
+    border: 1px solid #EAEAEA;
+    background: #F9F9F9;
+    color: #B4B4B4;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 20px;
+    width: 100%;
+}
+
+.footer-form input::placeholder, .footer-form textarea::placeholder{
+    color: #777777;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.policy-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 3px;
+}
+
+.policy-div input{
+    width: max-content;
+    margin: 0px !important;
+}
+
+.policy-div label{
+    color: #333;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.policy-div label a{
+    color: #B22017;
+    text-decoration: underline;
+}
+
+.footer-form button{
+    border: 0px;
+    border-bottom: 3px solid #2B3945;
+    background: #455769;
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    color: #FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.footer-form button:hover{
+    transform: scale(0.97);
+}
+
+@media (max-width:768px){
+    .footer-form-sec {
+        padding: 80px 0px;
+    }
+
+    .footer-form-div {
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+    .footer-form-div > * {
+        padding: 0px;
+        min-height: auto;
+    }
+
+    .footer-form-div .footer-form-women {
+        position: static;
+        width: 270px;
+        float: unset;
+        margin: 0px;
+    }
+    .footer-form-div .title {
+        font-size: 32px;
+    }
+    .footer-form-div .desc a{
+        pointer-events: all;
+    }
+    .footer-form-div .desc {
+        margin-bottom: 40px;
+    }
+    .footer-form {
+        padding: 40px 12px;
+    }
+}
+
+.mfask-field {
+    position: relative;
+    margin-bottom: 20px;
+}
+.mfask-field .error-dialog {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.PERSONAL_DATA-mfask-field .error-dialog {
+    left: 5px;
+}
+.mfask-field .error-dialog.has-error .help-block {
+    background: #b12017;
+    color: white;
+    font-size: .7rem;
+    display: block;
+    padding: .05rem .5rem .1rem;
+    border-radius: 0 0 0.3rem 0.3rem;
+    position: relative;
+}
+.mfask-field.mfask-recaptcha .help-block {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #b12017;
+    color: white;
+    font-size: .7rem;
+    display: block;
+    padding: 0.05rem 0.5rem 0.1rem;
+    border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.PERSONAL_DATA-mfask-field .error-dialog.has-error .help-block {
+    border-radius: 0 .3rem .3rem .3rem;
+}
+.PERSONAL_DATA-mfask-field .error-dialog.has-error .help-block:before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    bottom: 100%;
+    left: 0;
+    border: 3px solid #b12017;
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+.dialog {
+    margin: auto;
+    display: block;
+    background: #455769;
+    box-shadow: 0 3px 0 #2b3945;
+    font: 14px/33px 'PT Sans', sans-serif;
+    height: 33px;
+    padding: 0 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 0;
+}
+.dialog:hover,
+.dialog:focus,
+.dialog:active {
+    color: white;
+}
+
+/* ---------------------------------- */
+
+
+div.mf-ok-text {
+    color: green;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+div.mf-name, div.mf-email, div.mf-captcha, div.mf-message {
+    padding-bottom: 0.4em;
+}
+
+
+span.mf-req {
+    color: red;
+}
+
+
+.iframe-container {
+    width: 330px;
+    height: 422px;
+    position: relative;
+}
+
+.iframe-container-2 {
+    width: 310px;
+    height: 422px;
+    position: absolute;
+}
+
+.iframe {
+    width: 310px;
+    height: 422px;
+    border-style: none;
+}
+
+.recaptcha-textarea-container {
+    width: 300px;
+    height: 60px;
+    border-style: none;
+    bottom: 12px;
+    left: 25px;
+    margin: 0px;
+    padding: 0px;
+    right: 25px;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
+}
+
+.recaptcha-textarea {
+    width: 250px !important;
+    height: 40px !important;
+    border: 1px solid #c1c1c1 !important;
+    margin: 10px 25px !important;
+    padding: 0px !important;
+    resize: none !important;
+}
+
+.success-ajax-submit {
+    color: #008000;
+}
+
+#form_submit_errors {
+    color: #ff0000;
+}
+
+.has-validation-callback {
+    text-align: center;
+}

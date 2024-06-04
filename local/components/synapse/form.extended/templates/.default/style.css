@@ -1,0 +1,145 @@
+div.mfeedback {
+}
+
+.mf-field p {
+    padding-bottom: 20px;
+}
+
+.mf-personal-data {
+    padding-bottom: 20px;
+}
+
+div.mf-ok-text {
+    color: green;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+div.mf-name, div.mf-email, div.mf-captcha, div.mf-message {
+    width: 80%;
+    padding-bottom: 0.4em;
+}
+
+div.mf-name input, div.mf-email input {
+    width: 60%;
+}
+
+div.mf-message textarea {
+    width: 60%;
+}
+
+span.mf-req {
+    color: red;
+}
+
+.mfeedback input[type='text'] {
+    background-color: transparent !important;
+    border-radius: 0;
+    line-height: 22px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 4px 10px 2px 10px;
+    color: #222222;
+    outline: none;
+    height: 30px;
+    border: 1px solid #777777;
+    font-weight: 400;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-appearance: none;
+    cursor: text;
+}
+
+.mfeedback textarea {
+    width: 100%;
+    margin-top: 0;
+    background-color: transparent;
+    border-radius: 0;
+    line-height: 22px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2px 10px 2px 10px;
+    color: #222222;
+    outline: none;
+    border: 1px solid #777777;
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    resize: none;
+    height: 100px;
+    -webkit-appearance: none;
+    overflow: auto;
+    line-height: 25px !important;
+    padding: 2px 10px;
+}
+
+.help-block {
+    color: red;
+    position: absolute;
+}
+
+.captcha {
+    padding-top: 25px;
+}
+
+.captcha p {
+    padding-bottom: 15px;
+}
+
+.def_captcha {
+    width: 250px !important;
+    margin: 5px 20px !important;
+}
+
+.iframe-container {
+    width: 330px;
+    height: 422px;
+    position: relative;
+}
+
+.iframe-container-2 {
+    width: 310px;
+    height: 422px;
+    position: absolute;
+}
+
+.iframe {
+    width: 310px;
+    height: 422px;
+    border-style: none;
+}
+
+.recaptcha-textarea-container {
+    width: 300px;
+    height: 60px;
+    border-style: none;
+    bottom: 12px;
+    left: 25px;
+    margin: 0px;
+    padding: 0px;
+    right: 25px;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
+}
+
+.recaptcha-textarea {
+    width: 250px !important;
+    height: 40px !important;
+    border: 1px solid #c1c1c1 !important;
+    margin: 10px 25px !important;
+    padding: 0px !important;
+    resize: none !important;
+}
+
+.success-ajax-submit {
+    color: #008000;
+}
+
+#form_submit_errors {
+    color: #ff0000;
+}

@@ -1,0 +1,12 @@
+<?
+$PERM["events2"]["2"]="D";
+$PERM["events2"]["5"]="D";
+$PERM["events2"]["3"]="D";
+$PERM["events2"]["4"]="D";
+$PERM["events2"]["6"]="D";
+$PERM["new-page.php"]["*"]="D";
+$PERM["new-page.php"]["6"]="X";
+$PERM["bitrix"]["7"]="R";
+$PERM["/"]["7"]="W";
+$PERM["/"]["*"]="R";
+?>
