@@ -4,7 +4,9 @@ $APPLICATION->SetPageProperty("ROBOTS", "index, follow");
 $APPLICATION->SetPageProperty("title", "Высшее образование в Венгрии: цена обучения для русских | Поступить в ВУЗ Венгрии с помощью «Айкласс»");
 $APPLICATION->SetPageProperty("description", "Высшее образование в Венгрии по выгодной цене с образовательным центром «Айкласс». Мы поможем поступить в университет в Венгрии, подобрать подходящий ВУЗ для получения высшего образования, подтянуть английский и сдать экзамены: доверьте свое образование профессионалам - ☎ +7 (812) 320 9971");
 $APPLICATION->SetTitle("Высшее образование за рубежом ");
-?><?$APPLICATION->IncludeComponent(
+?>
+
+<?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
 	"higher_education_new", 
 	array(
@@ -100,11 +102,9 @@ $APPLICATION->SetTitle("Высшее образование за рубежом 
 );?>
 
 <?php
-if ($_SERVER["REQUEST_URI"] == "/higher-education/")
-{echo '
-
-
-
+//if ($_SERVER["REQUEST_URI"] == "/higher-education/")
+//{
+	echo '
 <h1>ВЫСШЕЕ ОБРАЗОВАНИЕ ЗА РУБЕЖОМ</h1> 
 
 <h2 class="conteins__title">Содержание</h2>
@@ -840,11 +840,8 @@ if ($_SERVER["REQUEST_URI"] == "/higher-education/")
 <a href="mailto:iclass@iclass.ru">info@iclass.ru</a>, тел.: 8 (812) 320 99 71, 8 (800) 550 84 33</p>
 
 <p>Оставьте заявку прямо сейчас.</p>
+';
+//}
+?>
 
-
-
-
-
-
-';}
-?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

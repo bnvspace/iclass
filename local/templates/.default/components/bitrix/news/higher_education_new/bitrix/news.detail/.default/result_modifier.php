@@ -33,6 +33,8 @@ $nofollowLinks = [
     'https://studydubai.ru/',
     'https://iclass-news.ru/consultation',
     'https://iclass-news.ru/englishtest',
+    'https://www.vk.com/iclass_ukfair',
+    'https://www.iclass-study.ru/online-registration.html',
     // Добавьте сюда другие URL, к которым нужно добавить nofollow
 ];
 
