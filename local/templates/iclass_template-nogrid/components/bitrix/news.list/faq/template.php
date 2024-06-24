@@ -22,7 +22,7 @@ $this->setFrameMode(true);
         <div class="faq-div">
             <div class="left">
                 <?echo $arResult['DESCRIPTION']?>
-                <a href="/faq/" class="link">Другие вопросы</a>
+                <a href="#" class="link">Другие вопросы</a>
             </div>
             <div class="right">
                 <?foreach($arResult["ITEMS"] as $arItem):?>

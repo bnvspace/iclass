@@ -69,7 +69,7 @@ $APPLICATION->SetTitle("Foundation");
 	</span><br>
  <span style="font-family: Arial, Helvetica; font-size: 11pt;">На бесплатной консультации мы расскажем вам о системе образования в разных странах, о том, как выбрать университет и программу, на что обратить особое внимание и поможем составить ваш личный план подготовки и поступления.</span><br>
  <br>
- <span style="font-family: Arial, Helvetica; font-size: 11pt;">Запишитесь на консультацию </span><a href="https://iclass-news.ru/consultation"><span style="font-family: Arial, Helvetica; font-size: 11pt;">по ссылке</span></a><span style="font-family: Arial, Helvetica; font-size: 11pt;">,&nbsp;оставьте ваш вопрос в форме на странице ниже или позвоните нам по телефону (812) 2449964.<br>
+ <span style="font-family: Arial, Helvetica; font-size: 11pt;">Запишитесь на консультацию </span><a href="https://iclass-news.ru/consultation" rel="nofollow"><span style="font-family: Arial, Helvetica; font-size: 11pt;">по ссылке</span></a><span style="font-family: Arial, Helvetica; font-size: 11pt;">,&nbsp;оставьте ваш вопрос в форме на странице ниже или позвоните нам по телефону (812) 2449964.<br>
  </span><span style="font-family: Arial, Helvetica; font-size: 11pt;">Консультации могут проходить как очно, так и онлайн по Zoom.</span><br>
 </div>
  <br>

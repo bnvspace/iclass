@@ -53,12 +53,12 @@
                 </div>
                 <p><? echo $arItem["PREVIEW_TEXT"]; ?></p>
                 <div class="event_item-more_text none">
-                    <?
-                        preg_match('/\[UPLABTILDA/', $arItem["DETAIL_TEXT"], $matches);
-                        if (empty($matches)) {
-                            echo $arItem["DETAIL_TEXT"];
-                        }
-                    ?>
+<!--                    --><?//
+//                    preg_match('/\[UPLABTILDA/', $arItem["DETAIL_TEXT"], $matches);
+//                    if (empty($matches)) {
+//                        echo $arItem["DETAIL_TEXT"];
+//                    }
+//                    ?>
                     <? if ($arItem['PROPERTIES']['REGISTER_ALLOW']['VALUE'] == 1): ?>
                         <div class="text-center sing_event"><a
                                 href="/ajax/event-register.php?eventId=<?=$arItem['ID']?>"

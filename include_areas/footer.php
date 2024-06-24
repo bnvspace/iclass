@@ -546,20 +546,20 @@ endif;
 	    <?endif?>
 	})
 </script>*/ ?>
-<script type='text/javascript'> //build:::7
-    var liveTex = true,
-        liveTexID = 45535,
-        liveTex_object = true;
-    (function () {
-        var lt = document.createElement('script');
-        lt.type = 'text/javascript';
-        lt.async = true;
-		lt.src = '//cs15.livetex.ru/js/client.js';
-        var sc = document.getElementsByTagName('script')[0];
-        if (sc) sc.parentNode.insertBefore(lt, sc);
-        else document.documentElement.firstChild.appendChild(lt);
-    })();
+<!-- Begin Verbox {literal} -->
+<script>
+    (function(){(function c(d,w,m,i) {
+        window.supportAPIMethod = m;
+        var s = d.createElement('script');
+        s.id = 'supportScript'; 
+        var id = 'a855980f10fa4d080d8b69138924061c';
+        s.src = (!i ? 'https://admin.verbox.ru/support/support.js' : 'https://static.site-chat.me/support/support.int.js') + '?h=' + id;
+        s.onerror = i ? undefined : function(){c(d,w,m,true)};
+        w[m] = w[m] ? w[m] : function(){(w[m].q = w[m].q ? w[m].q : []).push(arguments);};
+        (d.head ? d.head : d.body).appendChild(s);
+    })(document,window,'Verbox')})();
 </script>
+<!-- {/literal} End Verbox -->
 <script>
 	$(document).ready(function(){
 		$(".yell-widget").attr('rel', 'nofollow')

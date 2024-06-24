@@ -1,9 +1,9 @@
 <?
-    if ( ! defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
+if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
     die();
-    }
+}
 
-    use Bitrix\Main\Page\Asset;
+use Bitrix\Main\Page\Asset;
 
 ?>
 <!DOCTYPE HTML>
@@ -16,18 +16,22 @@
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js"><!--<![endif]-->
 <head>
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GSGGCQV7P1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GSGGCQV7P1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-GSGGCQV7P1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-GSGGCQV7P1');
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, target-densitydpi=medium-dpi">
     <title><? $APPLICATION->ShowTitle() ?></title>
-<link rel="canonical" href="<?= htmlspecialcharsbx($APPLICATION->GetPageProperty('canonical')) ?>">
+    <link rel="canonical" href="<?= htmlspecialcharsbx($APPLICATION->GetPageProperty('canonical')) ?>">
     <link rel="shortcut icon" href="/favicon.ico"/>
     <link rel="shortcut icon" href="/favicon.ico"/>
     <script src="/bitrix/media/js/library.js"></script>
@@ -43,7 +47,7 @@
     <link href="/bitrix/media/css/base.css" rel="stylesheet">
     <link href="/bitrix/media/css/style.css" rel="stylesheet">
     <link href="/bitrix/media/css/responsive.css" rel="stylesheet">
-	<link rel="stylesheet" href="/local/templates/.default/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/local/templates/.default/css/font-awesome.min.css">
 
     <!--[if IE]>
     <link href="/bitrix/media/css/base-ie.css" rel="stylesheet" type="text/css">
@@ -55,10 +59,10 @@
         better experience this site.</p>
     <![endif]-->
     <? $APPLICATION->IncludeComponent("bitrix:main.include", "", array(
-        "AREA_FILE_SHOW"      => "sect",
-        "AREA_FILE_SUFFIX"    => "header_analytics",
+        "AREA_FILE_SHOW" => "sect",
+        "AREA_FILE_SUFFIX" => "header_analytics",
         "AREA_FILE_RECURSIVE" => "Y",
-        "EDIT_TEMPLATE"       => ""
+        "EDIT_TEMPLATE" => ""
     ),
         false
     ); ?>
@@ -72,48 +76,52 @@
     </script>
 
     <?
-        Asset::getInstance()->addJs("/local/js/masonry.pkgd.min.js");
-        $APPLICATION->ShowHead();
+    Asset::getInstance()->addJs("/local/js/masonry.pkgd.min.js");
+    $APPLICATION->ShowHead();
+    $url = 'https://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+    if (strpos($url, 'emali/?PAGEN_') !== false) {
+        $APPLICATION->SetPageProperty("robots", "noindex, nofollow");
+    }
     ?>
 
-<script type='application/ld+json'>
-{
-  "@context": "http://www.schema.org",
-  "@type": "Organization",
-  "name": "iclass",
-  "url": "https://www.iclass.ru/",
-  "logo": "https://www.iclass.ru/bitrix/media/images/logo.png",
-  "description": "ПОМОЩЬ В ОБУЧЕНИИ ЗА ГРАНИЦЕЙ С 1998 ГОДА",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Петроградская сторона, Малый проспект, д.3",
-    "postOfficeBoxNumber": "iclass@iclass.ru",
-    "addressLocality": "Санкт-Петербург",
-    "postalCode": "197198",
-    "addressCountry": "Россия"
-  },
-  "hasMap": "https://goo.gl/maps/ya989QRjQdufW2vR6",
-  "openingHours": "Mo, Tu, We, Th, Fr 10:30-19:00",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+78122449964"
-  }
-}
- </script>
+    <script type='application/ld+json'>
+        {
+            "@context": "http://www.schema.org",
+            "@type": "Organization",
+            "name": "iclass",
+            "url": "https://www.iclass.ru/",
+            "logo": "https://www.iclass.ru/bitrix/media/images/logo.png",
+            "description": "ПОМОЩЬ В ОБУЧЕНИИ ЗА ГРАНИЦЕЙ С 1998 ГОДА",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Петроградская сторона, Малый проспект, д.3",
+                "postOfficeBoxNumber": "iclass@iclass.ru",
+                "addressLocality": "Санкт-Петербург",
+                "postalCode": "197198",
+                "addressCountry": "Россия"
+            },
+            "hasMap": "https://goo.gl/maps/ya989QRjQdufW2vR6",
+            "openingHours": "Mo, Tu, We, Th, Fr 10:30-19:00",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+78122449964"
+            }
+        }
+    </script>
 
 </head>
 <body>
 <? $APPLICATION->IncludeComponent("bitrix:main.include", "", array(
-    "AREA_FILE_SHOW"      => "sect",
-    "AREA_FILE_SUFFIX"    => "google_tag_manager",
+    "AREA_FILE_SHOW" => "sect",
+    "AREA_FILE_SUFFIX" => "google_tag_manager",
     "AREA_FILE_RECURSIVE" => "Y",
-    "EDIT_TEMPLATE"       => ""
+    "EDIT_TEMPLATE" => ""
 ),
     false
 ); ?>
 <div id="panel"><? $APPLICATION->ShowPanel(); ?></div>
 <div class="page">
-    <? $APPLICATION->IncludeFile('/include_areas/header.php', Array(), Array("SHOW_BORDER" => false)); ?>
+    <? $APPLICATION->IncludeFile('/include_areas/header.php', array(), array("SHOW_BORDER" => false)); ?>
     <section class="content">
         <div class="container">
             <div class="content_line-top"></div>

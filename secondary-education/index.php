@@ -396,7 +396,7 @@ if ($_SERVER["REQUEST_URI"] == "/secondary-education/")
 
 <p>Подробную информацию о возможностях поступления в лучшие средние школы Англии, Ирландии, США, Швейцарии, Кипра, ОАЭ и других стран вы всегда можете получить на бесплатной консультации со специалистами Ай Класс. Запишитесь на консультацию заранее в удобное для вас время:</p>
 
-<p>по телефону <a href="tel:+78122449964">+78122449964</a>, e-mail: <a href="mailto:school@iclass.ru">school@iclass.ru</a> или <a href="https://iclass-news.ru/consultation">онлайн.</a></p>
+<p>по телефону <a href="tel:+78122449964">+78122449964</a>, e-mail: <a href="mailto:school@iclass.ru">school@iclass.ru</a> или <a href="https://iclass-news.ru/consultation" rel="nofollow">онлайн.</a></p>
 
 <p> 
 </p>

@@ -1,0 +1,226 @@
+<h3 align="center" style="text-align: left;"> <b><img width="276" alt="1122.jpg" src="/upload/medialibrary/850/1122.jpg" height="307" title="Венгрия" align="left"></b>Высшее образование в Венгрии<br>
+ </h3>
+<style>
+  .main-content ul {
+    display: block;
+    margin: 0 0 15px 25px;
+    padding: 0;
+  }
+  .main-content ul ul {
+    margin-top: 15px;
+  }
+  .main-content ul li {
+    list-style: inside disc;
+    margin: 0 0 10px 0;
+  }
+  .main-content ol {
+    display: block;
+    margin: 0 0 15px 25px;
+    padding: 0;
+  }
+  .main-content ol ol {
+    margin-top: 15px;
+  }
+  .main-content ol li {
+    margin: 10px 0 10px 0;
+  }
+  .main-content ol li:before {
+    content: none;
+  }
+  .main-content ol, 
+  .main-content ul {
+     list-style: decimal;
+  }
+
+  .conteins__title {
+    margin-bottom: 10px;
+  }
+  .contains__list li {
+    margin-left: 30px;
+  }
+  .contains__list li,
+  .contains__list li a {
+    text-decoration: none;
+    color: #af1f17 !important;
+  }
+  .contains__list li a:hover {
+    text-decoration: underline;
+  }
+
+  .main-content p {
+    margin-bottom: 10px;
+  }
+
+  .article-image {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px 0;
+  }
+  .article-image__inner {
+    max-width: 480px;
+  }
+  .article-image__inner:nth-child(-n + 3) {
+    margin-bottom: 20px;
+  }
+  .article-image__inner img {
+    display: block;
+  }
+  .article-video {
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  .faq-section {
+    margin: 20px 0;
+  }
+
+  .faq-section input,
+  .faq-section p {
+    display: none;
+  }
+
+  .faq-section label + p {
+    display: block;
+    color: #999;
+    font-size: 0.85em;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    -ms-transition: all 0.15s ease-out;
+    -o-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+    /* Обрезаем текст */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .faq-section input[type="checkbox"]:checked ~ p {
+    display: block;
+    color: #444;
+    font-size: 1em;
+    /* Восстанавливаем обрезание текст по умолчанию */
+    text-overflow: clip;
+    white-space: normal;
+    overflow: visible;
+  }
+
+  .faq-section label {
+    font-size: 1.2em;
+    cursor: pointer;
+    background: #f5f5f5;
+    display: block;
+    position: relative;
+    padding: 7px 10px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-left: 3px solid #888;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    -ms-transition: all 0.15s ease-out;
+    -o-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+
+  .faq-section label::-moz-selection {
+    /* Удаляем выделение текста при переключении */
+    background: none;
+  }
+
+  .faq-section label::selection {
+    background: none;
+  }
+
+  .faq-section label:hover {
+    background: #f5f5f5;
+  }
+
+  .faq-section input[type="checkbox"]:checked ~ label {
+    border-color: #b22017;
+    background: #d34346;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#fff),
+      to(#d34346)
+    );
+    background-image: -webkit-linear-gradient(top, #fff, #d34346);
+    background-image: -moz-linear-gradient(top, #fff, #d34346);
+    background-image: -ms-linear-gradient(top, #fff, #d34346);
+    background-image: -o-linear-gradient(top, #fff, #d34346);
+    background-image: linear-gradient(to bottom, #fff, #d34346);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+  }
+
+  .faq-section label::before {
+    content: "";
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    margin-top: -6px;
+    border: 6px solid transparent;
+    border-left-color: inherit;
+  }
+
+  .faq-section input[type="checkbox"]:checked ~ label::before {
+    border: 6px solid transparent;
+    border-top-color: inherit;
+    margin-top: -3px;
+    right: 10px;
+  }
+  
+  .nav-link {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+  }
+  .nav-link a {
+    text-decoration: none;
+  }
+</style>
+  <section class="conteins">
+    <h2 class="conteins__title">Содержание</h2>
+    <ul class="contains__list">
+      <li><a href="#title1">Об университете</a></li>
+      <li><a href="#title2">Статистика</a></li>
+      <li><a href="#title3">Активности</a></li>
+      <li><a href="#title4">Проживание</a></li>
+      <li><a href="#title5">Почему стоит выбрать TUAS?</a></li>
+      <li><a href="#title6">Программы обучения</a></li>
+      <li><a href="#title7">Стоимость обучения</a></li>
+    </ul>
+  </section>
+ <span style="color: #252525; background-image: initial; background-color: white;" class=""> </span>
+<p style="text-align: justify;">
+	 Расположенная в самом центре Европы, Венгрия долго оставалась в тени своих более прославленных, с точки зрения высшего образования, соседемй – <a href="https://www.iclass.ru/countries/great-britain/">Великобритании</a>, <a href="https://www.iclass.ru/countries/france/">Франции</a>, <a href="https://www.iclass.ru/countries/germany/">Германии</a>, <a href="https://www.iclass.ru/countries/czech-republic/">Чехии</a>. Что довольно удивительно, ведь история высшего образования в этой стране имеет более че 600-летнюю историю!
+</p>
+<p>
+</p>
+<p>
+	 Так, первый венгерский университет – Печский университет – был <b>основан в 1367</b>, что делает его «старшим братом» по отношению к таким прославленным учебным заведениям как Массачусетский технологический институт, США (1861), Московский государственный университет, Россия (1755), Стокгольмский университет, Швеция (1878), Университет Париж IV Сорбонна, Франция (1970), Сент-Эндрюсский университет, Шотландия (1410), Лондонский университет королевы Марии, Великобритания (1887) и многим другим.
+</p>
+<p>
+	 Появление Венгрии на рынке международного, в том числе англоязычного образования для иностранных студентов, связано с подписанием Болонской декларации в 1999, что привело к внедрению трехступенчатой системы университетского образования – Болонской системе. Таким образом, первой ступенью на пути современного студента является Бакалавриат (3-4 года), затем Магистратура (1-2 года) и Докторантура (3-5 лет). Стоит отметить, что ряд специальностей (например, медицина, стоматология, право, ветеринария и некоторые другие) выходит за рамки данной системы и предполагает более длительный образовательный цикл (иногда 6-8 лет). В результате, Болонская система поспособствовала популяризации венгерского образования среди иностранных аппликантов, увеличению числа таких студентов почти в три раза и появлению Венгрии в международных рейтингах высшего образования – так, в 2014 году венгерские университеты (Университет Земмельвайса и Дебреценский университет) впервые <b>вошли в британский рейтинг Times Higher Education</b> и заняли почетные 55 и 67 места соответственно.
+</p>
+<p>
+	 Несмотря на то, что государственным языком в Венгрии является венгерский, относящийся к финно-угорской языковой группе и признанный одним из самых сложных для изучения языков, на сегодняшний день иностранные студенты, желающие получить образование на английском языке, имеют возможность выбрать из огромного числа разнообразных академических программ по различным специальностям, представленным в более чем 30 учебных заведениях, как государственных, так и частных.
+</p>
+<p>
+	 Наибольшее число университетов, конечно же, сосредоточено в столичном регионе и расположено в Будапеште, являющимся единственной европейской столицей-курортом, либо его пригородах. Тем не менее, развитая транспортная и дорожная система Венгрии позволяют легко добраться из одного конца страны в другой менее, чем за 3 часа – так, удаленные от Будапешта университеты, например, в Дебрецене, Пече, Мишкольце, не теряют свой популярности и ежегодно привлекают огромное число иностранцев со всего мира.
+</p>
+<p>
+	 Что же так привлекает международных студентов в венгерских университетах? Помимо уже упомянутого удобного географического положения страны в центральной Европе и широкого перечня образовательных программ (более 300!), Венгрии есть что предложить своим абитуриентам. Говоря о высшем образовании, следует обязательно отметить одно из важнейших достоинств данного государства, а именно <b>невысокую стоимость обучения</b> (даже для иностранцев), <b>проживания</b> (как в студенческих общежитиях, так и в частном секторе) и питания (ежемесячные затраты на продукты не превышают 250 евро). Кроме того, Венгрия является одной из немногих стран, где широко развита <b>стипендиальная система для иностранных студентов</b>, в том числе и российских. Государственная стипендиальная программа, распространяющаяся на большинство популярных академических программ всех уровней образования, позволяет учиться <b>почти бесплатно</b>, гарантирует бесплатное проживание в общежитии университета, а иногда и ежемесячные выплаты денежных пособий!
+</p>
+<p>
+	 Следует сказать, что процесс поступления в венгерские учебные заведения разнится от университета к университету: некоторые принимают студентов на основании устных или письменных вступительных экзаменов по английскому языку или профильным дисциплинам (очно или заочно по Скайп), некоторые рассматривают только пакет документов, присланный по электронной или курьерской почте.
+</p>
+<p>
+ <b>Перед подачей заявки обязательно внимательно читайте вступительные требования или обратитесь за помощью к специалисту! </b>Менеджеры АйКласс будут рады ответить на Ваши вопросы, подробнее рассказать о системе высшего образования в Венгрии, стипендиальной программе и поступлении в лучшие венгерские университеты.
+</p>
+<p>
+	 Связаться с нами Вы всегда можете по телефону 320 99 71 или написав нам на <a href="mailto:iclass@iclass.ru">iclass@iclass.ru</a>
+</p>

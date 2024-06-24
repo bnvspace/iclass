@@ -17,7 +17,7 @@ if ($currentUrl === $redirectUrl) {
             <li><a href="https://www.iclass-study.ru/" rel="nofollow" class="js-ga-centr_ino">школа иностранных
                     языков</a></li>
             <li><a href="https://www.iclass.ru/language/" class="js-ga-corp_study">программы</a></li>
-            <li><a href="https://www.iclass-study.ru/corporate" class="js-ga-corp_study">корпоративное обучение</a></li>
+            <li><a href="https://www.iclass-study.ru/corporate" class="js-ga-corp_study" rel="nofollow">корпоративное обучение</a></li>
         </ul>
         <div class="social_links right tab-hide phone-hide">
 
