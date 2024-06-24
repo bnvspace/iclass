@@ -25,7 +25,7 @@
                     <? else: ?>
                     <li>
                         <? if ($arItem['IS_PARENT'] == 1 && strpos($arItem["LINK"], '/countries/') !== false): ?>
-                            <a><?=$arItem["TEXT"]?></a>
+                            <a style="cursor: pointer;"><?=$arItem["TEXT"]?></a>
                         <? else: ?>
                             <a href="<?=$arItem["LINK"]?>" <? if ($arItem['PARAMS']['DISABLED'] == 'Y'): ?>class="js-disabledLink"<? endif ?>><?=$arItem["TEXT"]?></a>
                         <? endif; ?>

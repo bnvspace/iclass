@@ -31,7 +31,7 @@
                  id="<?=$this->GetEditAreaId($arItem['ID']);?>">
 				<?
 					if ( ! empty($arItem['PROPERTIES']['LINK']['VALUE'])) { ?>
-                        <a href="<?=$arItem['PROPERTIES']['LINK']['VALUE']?>" class="banner_slider-link"></a>
+                        <a href="<?=$arItem['PROPERTIES']['LINK']['VALUE']?>" rel="nofollow" class="banner_slider-link"></a>
 					<? }
 				?>
                 <div class="banner_slide-content">

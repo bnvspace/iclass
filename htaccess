@@ -17,8 +17,9 @@ ErrorDocument 404 /404.php
 	RewriteCond %{REQUEST_FILENAME} !-l
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
-	RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+	RewriteRule ^(.*)$ /bitrix/urlrewrite.php [R=301,L]
 	RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+
 </IfModule>
 
 <IfModule mod_dir.c>
@@ -30,3 +31,84 @@ ErrorDocument 404 /404.php
 	ExpiresByType image/jpeg "access plus 3 day"
 	ExpiresByType image/gif "access plus 3 day"
 </IfModule>
+
+Redirect 301 /events&&&<!--/ https://www.iclass.ru/
+Redirect 301 /events/exhibitions/6995/ https://www.iclass.ru/events/
+Redirect 301 /events/seminar/ https://www.iclass.ru/events/
+Redirect 301 /events/seminars/6565/ https://www.iclass.ru/events/
+Redirect 301 /higher-education/BMU/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/aalto-university/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/arcada-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/bmu/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/central-ostrobothnia-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/colorado-state-university/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/constructor-university/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/eotvos-lorand-university/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/esc-dijon-school-of-business/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/esmod-dubai-international-french-fashion-institute-dubai/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/eu-business-school/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/european-school-of-economics/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/european-university-evropeyskiy-universitet/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/european-university/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/fh-aachen/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/foundation-fh-aachen/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/germany/friedrich-alexander-universit-t-erlangen-n-rnberg/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/germany/gisma-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/germany/international-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/germany/osnabr-ck-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/germany/the-berlin-school-of-economics-and-law-/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/germany/the-brandenburg-university-of-technology-cottbus/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/germany/university-of-passau/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/great-britain/london-south-bank-university/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/great-britain/queen-mary-university-of-london/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/great-britain/university-of-reading/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/guoas/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/haaga-helia-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/hamk-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/heriot-watt-university-dubai/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/hotel-and-tourism-management-institute/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/istituto-superiore-du-design/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/iu/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/john-cabot-university-rim/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/jyvaskyla-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/kajaani-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/lab-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/lapland-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/laurea-university-of-applied-sciences-/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/munich-business-school/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/north-karelia-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/oulu-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/sae-creative-media-institute-dubai/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/satakunta-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/savonia-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/skema-business-school/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/sustainability-management-school/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/swiss-education-group7302/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/tamk-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/the-british-university-in-dubai/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/trinity-college-dublin/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/turku-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/university-college-dublin/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/university-of-wollongong-in-dubai/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/uod/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/usa/-/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/vaasa-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/xamk-south-eastern-finland-university-of-applied-sciences/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/xeuoas/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/xi-an-jiaotong-liverpool-university/ https://www.iclass.ru/higher-education/
+Redirect 301 /higher-education/zayed-university/ https://www.iclass.ru/higher-education/
+Redirect 301 /information/news/11-fevralya-vystavka-dlya-roditeley-obrazovanie-za-rubezhom-dlya-vashikh-detey-ot-chastnoy-shkoly-do/ https://www.iclass.ru/information/news/
+Redirect 301 /information/news/17-marta/ https://www.iclass.ru/information/news/
+Redirect 301 /information/news/26-noyabrya-den-seminarov-po-zarubezhnomu-obrazovaniyu/ https://www.iclass.ru/information/news/
+Redirect 301 /information/news/ceminar-dlya-roditeley-pochemu-ne-stoit-boyatsya-otpravlyat-rebenka-odnogo-v-angliyu-/ https://www.iclass.ru/information/news/
+Redirect 301 /information/news/fall2023/ https://www.iclass.ru/information/news/
+Redirect 301 /information/news/history/ https://www.iclass.ru/information/news/
+Redirect 301 /information/news/postuplenie-zarubezh-v-2017-godu/ https://www.iclass.ru/information/news/
+Redirect 301 /information/news/skidka-20/ https://www.iclass.ru/information/news/
+Redirect 301 /information/news/skidka-50-na-yazykovye-kursy-v-velikobritanii-i-irlandii/ https://www.iclass.ru/information/news/
+Redirect 301 /information/news/skidki-do-50/ https://www.iclass.ru/information/news/
+Redirect 301 /language/ssha/school/ https://www.iclass.ru/
+Redirect 301 /secondary-education/great-britain/bosworth-college/ https://www.iclass.ru/
+Redirect 301 /study_center_exam_ielts/ https://www.iclass.ru/
+Redirect 301 /www.iclass-news.ru/secondaryeducation https://www.iclass.ru/
+

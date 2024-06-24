@@ -1,9 +1,8 @@
 <?php
-if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
-
 $nofollowLinks = [
-    'https://iclass-news.ru/consultation',
     'https://studydubai.ru/',
+    'https://iclass-news.ru/consultation',
+    'https://iclass-news.ru/englishtest',
     // Добавьте сюда другие URL, к которым нужно добавить nofollow
 ];
 
@@ -33,4 +32,3 @@ if (!function_exists('addNofollowToSpecificLinks')) {
 if (!empty($arResult['DETAIL_TEXT'])) {
     $arResult['DETAIL_TEXT'] = addNofollowToSpecificLinks($arResult['DETAIL_TEXT'], $nofollowLinks);
 }
-?>

@@ -40,14 +40,6 @@ $arUrlRewrite=array (
     'PATH' => '/information/visa-news/index.php',
     'SORT' => 100,
   ),
-  5 => 
-  array (
-    'CONDITION' => '#^/secondary-education/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/secondary-education/index.php',
-    'SORT' => 100,
-  ),
   6 => 
   array (
     'CONDITION' => '#^/information/special/#',
@@ -62,6 +54,14 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/information/the-choice-of-profession/title.php',
+    'SORT' => 100,
+  ),
+  28 => 
+  array (
+    'CONDITION' => '#^/secondary-education/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/secondary-education/index.php',
     'SORT' => 100,
   ),
   8 => 
@@ -80,7 +80,7 @@ $arUrlRewrite=array (
     'PATH' => '/information/news/index.php',
     'SORT' => 100,
   ),
-  15 => 
+  27 => 
   array (
     'CONDITION' => '#^/higher-education/#',
     'RULE' => '',
@@ -104,7 +104,7 @@ $arUrlRewrite=array (
     'PATH' => '/content/news/index.php',
     'SORT' => 100,
   ),
-  13 => 
+  24 => 
   array (
     'CONDITION' => '#^/language/#',
     'RULE' => '',

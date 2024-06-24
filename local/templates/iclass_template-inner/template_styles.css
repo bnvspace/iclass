@@ -146,6 +146,13 @@ background: #455769;
   text-align: left;
 }
 
+.container_links p {text-align: left;}
+
+.link_img {object-fit: cover;
+   aspect-ratio: 4 / 3;
+ width:100%;
+}
+
 @media (max-width: 460px) {
 .container_links {
   flex: 1 1 40%;
