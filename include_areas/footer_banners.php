@@ -5,37 +5,80 @@
     </div>
 
     <div class="social_links footer_links right">
-	<a target="_blank" href="https://vk.com/iclass" rel="nofollow" class="vk_icon" style="width: 19px; background-position: 1px 0;"></a>
-				<a target="_blank" href="https://www.instagram.com/iclass_spb/" rel="nofollow" class="vk_icon" style="background-position: -18px 0;
+        <a target="_blank" href="https://vk.com/iclass" rel="nofollow" class="vk_icon"
+           style="width: 19px; background-position: 1px 0;"></a>
+        <a target="_blank" href="https://www.instagram.com/iclass_spb/" rel="nofollow" class="vk_icon" style="background-position: -18px 0;
     width: 16px;"></a>
-				<a target="_blank" href="https://www.facebook.com/iclass.ru" rel="nofollow" class="fb_icon" style="background-position: -33px 0;
+        <a target="_blank" href="https://www.facebook.com/iclass.ru" rel="nofollow" class="fb_icon" style="background-position: -33px 0;
     width: 18px;"></a>
-				<a target="_blank" href="https://www.youtube.com/channel/UCEqEZglRL0cD24bObA0W2wg" rel="nofollow" class="fb_icon" style="background-position: -50px 0;
+        <a target="_blank" href="https://www.youtube.com/channel/UCEqEZglRL0cD24bObA0W2wg" rel="nofollow"
+           class="fb_icon" style="background-position: -50px 0;
     width: 18px;"></a>
-				<a target="_blank" href="https://t.me/iclassspb" rel="nofollow" class="tw_icon" style="background-position: -66px 0;"></a>
-
+        <a target="_blank" href="https://t.me/iclassspb" rel="nofollow" class="tw_icon"
+           style="background-position: -66px 0;"></a>
 
 
         <!--<a target="_blank" href="https://www.facebook.com/iclass.ru" class="fb_icon"></a>
         <a target="_blank" href="https://vk.com/club8764437" class="vk_icon"></a>
         <a target="_blank" href="https://twitter.com/iclassru" class="tw_icon"></a>-->
     </div>
+    <style>
+        .footer_banners{
+            display: flex;
+            justify-content: center;
 
+            margin-top: 0;
+        }
+        .footer_banners div{
+            margin-top: 0;
+        }
+        .item-two{
+            margin-right: 15px;
+        }
+        @media (max-width: 840px) {
+            .footer_banners {
+                 width: auto;
+            }
+        }
+        @media (max-width: 480px){
+            .footer_links{
+                margin-left: 0;
+            }
+            .footer_banners {
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                justify-content: space-between;
+                width: 100%;
+                flex-wrap: wrap;
+                flex-direction: column;
+                margin-bottom: 50px;
+            }
+            .item-two{
+                margin-right: 0px;
+            }
+        }
+
+    </style>
     <div class="footer_banners">
-        <div>
-			<noindex><script data-skip-moving="true" id="top100Counter" type="text/javascript"
-			        src="https://counter.rambler.ru/top100.jcn?3119727"></script></noindex>
-			<noscript>
-			    <a href="https://top100.rambler.ru/navi/3119727?resourceId=3119727" rel="nofollow">
-			        <img src="https://counter.rambler.ru/top100.cnt?3119727" alt="Rambler's Top100" border="0"/>
-			    </a>
+        <div class="footer_banner-item item-one">
+            <noindex>
+                <script data-skip-moving="true" id="top100Counter" type="text/javascript"
+                        src="https://counter.rambler.ru/top100.jcn?3119727"></script>
+            </noindex>
+            <noscript>
+                <a href="https://top100.rambler.ru/navi/3119727?resourceId=3119727" rel="nofollow">
+                    <img src="https://counter.rambler.ru/top100.cnt?3119727" alt="Rambler's Top100" border="0"/>
+                </a>
             </noscript>
         </div>
-
-       <noindex> <div id="yellrank" class=""></div>
-		<script data-skip-moving="true" src="//www.yell.ru/yellrank/yellrank.js/?cmp=6806587&w=true"></script></noindex>
-
-        <div>
+        <div class="footer_banner-item item-two">
+        <noindex>
+            <div id="yellrank" class=""></div>
+            <script data-skip-moving="true" src="//www.yell.ru/yellrank/yellrank.js/?cmp=6806587&w=true"></script>
+        </noindex>
+        </div>
+        <div class="footer_banner-item item-three">
             <noindex>
                 <a target="_blank" rel="nofollow" href="https://eduabroad.ru/top"
                    title="eduABROAD - Обучение за рубежом: новости рынка, каталог компаний, события, аналитика"><img

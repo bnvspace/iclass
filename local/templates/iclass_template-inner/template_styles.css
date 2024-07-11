@@ -158,3 +158,39 @@ background: #455769;
   flex: 1 1 40%;
 }
 }
+/*11.07.24 - fix footer banners*/
+.footer_banners{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 0;
+}
+.footer_banners div{
+    margin-top: 0;
+}
+.item-two{
+    margin-right: 15px;
+}
+@media (max-width: 840px) {
+    .footer_banners {
+        width: auto;
+    }
+}
+@media (max-width: 480px){
+    .footer_links{
+        margin-left: 0;
+    }
+    .footer_banners {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .item-two{
+        margin-right: 0px;
+    }
+}
