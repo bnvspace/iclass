@@ -387,7 +387,7 @@ RewriteRule	^uslugi/podgotovka-k-postupleniyu/	https://www.iclass.ru/	[R=301,L]
 RewriteRule	^BUiD/	https://www.iclass.ru/	[R=301,L]
 RewriteRule	^about/forum/	https://www.iclass.ru/	[R=301,L]
 RewriteRule	^community/forum/	https://www.iclass.ru/	[R=301,L]
-RewriteRule	^countries/usa/<a\ data-fr-linked=/	https://www.iclass.ru/	[R=301,L]
+#RewriteRule	^countries/usa/<a\ data-fr-linked=/	https://www.iclass.ru/	[R=301,L]
 RewriteRule	^higher-education/usa/<a\ data-fr-linked=/	https://www.iclass.ru/	[R=301,L]
 
 
@@ -705,6 +705,7 @@ RewriteRule	^study_abroad_adult/	https://www.iclass.ru/	[R=301,L]
 RewriteRule	^study_abroad_middle_switzerland_ecole/	https://www.iclass.ru/	[R=301,L]
 RewriteRule	^study_center/	https://www.iclass.ru/	[R=301,L]
 
+#RewriteRule	^,"text/html/	https://www.iclass.ru/	[R=301,L]
 RewriteRule	^content/news/6662/	https://www.iclass.ru/	[R=301,L]
 RewriteRule	^content/news/6663/	https://www.iclass.ru/	[R=301,L]
 RewriteRule	^content/news/6689/	https://www.iclass.ru/	[R=301,L]
@@ -1129,7 +1130,7 @@ RewriteRule	^higher-education/malaca-instituto/	https://www.iclass.ru/higher-edu
 RewriteRule	^higher-education/middlesex-university-dubai/	https://www.iclass.ru/higher-education/uae/middlesex-university-dubai/ [R=301,L]
 RewriteRule	^higher-education/ntec/ https://www.iclass.ru/higher-education/uae/middlesex-university-dubai/ [R=301,L]
 RewriteRule	^higher-education/thompson-rivers-university/	https://www.iclass.ru/higher-education/canada/thompson-rivers-university/ [R=301,L]
-RewriteRule	^higher-education/universities/ https://www.iclass.ru/higher-education/ [R=301,L]
+
 RewriteRule	^higher-education/uovmb/ https://www.iclass.ru/higher-education/vengriya/uovmb/ [R=301,L]
 RewriteRule	^higher-education/esmod-dubai-international-french-fashion-institute-dubai/	https://www.iclass.ru/higher-education/uae/esmod-dubai-international-french-fashion-institute-dubai/ [R=301,L]
 RewriteRule	^information/higher-education/switzerland/hotel-and-tourism-management-institute/	https://www.iclass.ru/higher-education/switzerland/hotel-and-tourism-management-institute/ [R=301,L]
@@ -1160,8 +1161,26 @@ RewriteRule	^events/seminars/6054/ https://www.iclass.ru/events/seminars/5780/ [
 RewriteRule	^events/seminars/6599/ https://www.iclass.ru/events/seminars/6516/ [R=301,L]
 RewriteRule	^events/exhibitions/5783/ https://www.iclass.ru/events/exhibitions/5962/ [R=301,L]
 RewriteRule	^events/vebinary4514/6716/ https://www.iclass.ru/events/seminars/6516/ [R=301,L]
-RewriteRule	^language/great-britain/school/bournemouth-business-school-international-bbsi-bornmut/ https://iclass.ru/language/great-britain/school/bbsi-bornmut/ [R=301,L]
+RewriteRule	^language/great-britain/school/bournemouth-business-school-international-bbsi-bornmut/ https://www.iclass.ru/language/great-britain/ [R=301,L]
+RewriteRule	^language/great-britain/school/bbsi-bornmut/ https://www.iclass.ru/language/great-britain/ [R=301,L]
 RewriteRule	^language/shveytsariya/school/home-language-international-bazel/ https://iclass.ru/language/shveytsariya/school/home-language-international-zheneva/ [R=301,L]
+
+
+
+RewriteRule	^language/great-britain/school/bournemouth-business-school-international-bbsi-bornmut/ https://www.iclass.ru/language/great-britain/school/bbsi-bornmut/ [R=301,L]
+RewriteRule	^language/great-britain/school/bournemouth-business-school-international-bornmut/ https://www.iclass.ru/language/great-britain/school/bbsi-bornmut/ [R=301,L]
+RewriteRule	^language/great-britain/school/ec-young/ https://www.iclass.ru/language/great-britain/school/ec/ [R=301,L]
+RewriteRule	^language/great-britain/school/embassy-english/ https://www.iclass.ru/language/great-britain/school/embassy-ces-london/ [R=301,L]
+RewriteRule	^language/great-britain/school/frances-king-business-apprentice/ https://www.iclass.ru/language/great-britain/school/frances-king-london-/ [R=301,L]
+RewriteRule	^language/great-britain/school/frances-king-young/ https://www.iclass.ru/language/great-britain/school/frances-king-london-/ [R=301,L]
+RewriteRule	^language/great-britain/school/lal-young-learners/ https://www.iclass.ru/language/great-britain/school/lal-language-centre/ [R=301,L]
+
+RewriteRule	^language/great-britain/school/lal-young-learners/ https://www.iclass.ru/language/malta/school/clubclass-sent-dzhulians/ [R=301,L]
+RewriteRule	^language/malta/school/clubclass/ https://www.iclass.ru/language/malta/school/ec-sent-dzhulians/ [R=301,L]
+RewriteRule	^language/malta/school/ec-summer-camp/ https://www.iclass.ru/language/malta/school/ec-sent-dzhulians/ [R=301,L]
+RewriteRule	^language/malta/school/inlingua/ https://www.iclass.ru/language/malta/ [R=301,L]
+RewriteRule	^professional/ https://www.iclass.ru/ [R=301,L]
+RewriteRule	^higher-education/usa/universities/ https://www.iclass.ru/higher-education/usa/ [R=301,L]
 
 
   RewriteCond %{REQUEST_FILENAME} !-f
