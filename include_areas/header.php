@@ -229,7 +229,8 @@ if ($currentUrl === $redirectUrl) {
         <div class="container no-padding">
             <div class="menu_block row">
                 <div class="col-md-3 col-lg-3 col-sm-5 col-xs-15 menu_block-item no-padding">
-                    <a href="/language/" data-target="#menuSubLang" class="clearfix js-bigMenu">
+<!--                    clearfix js-bigMenu-->
+                    <a href="/language/" data-target="#menuSubLang" class="clearfix">
                         <div class="menu_icons"><i class="lng_icon"></i></div>
                         <span>ЯЗЫКОВЫЕ ПРОГРАММЫ</span>
                     </a>
@@ -237,21 +238,21 @@ if ($currentUrl === $redirectUrl) {
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-xs-15 col-sm-5 menu_block-item no-padding">
-                    <a href="/secondary-education/" class="clearfix js-bigMenu" data-target="#menuSubMiddle">
+                    <a href="/secondary-education/" class="clearfix" data-target="#menuSubMiddle">
                         <div class="menu_icons"><i class="edu_icon"></i></div>
                         <span>Среднее образование</span>
                     </a>
                     <div class="menu_block-hover bottom_lines-right"></div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-xs-15 col-sm-5 menu_block-item no-padding">
-                    <a href="/higher-education/" data-target="#menuSubHigh" class="clearfix js-bigMenu">
+                    <a href="/higher-education/" data-target="#menuSubHigh" class="clearfix">
                         <div class="menu_icons"><i class="hight_icon"></i></div>
                         <span>ВЫСШЕЕ ОБРАЗОВАНИЕ</span>
                     </a>
                     <div class="menu_block-hover top_lines"></div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-sm-5 col-xs-15 menu_block-item no-padding">
-                    <a href="/professional/" class="clearfix js-bigMenu" data-target="#menuSubProf">
+                    <a href="/professional/" class="clearfix" data-target="#menuSubProf">
                         <div class="menu_icons"><i class="prof_icon"></i></div>
                         <span>Профессиональные курсы</span>
                     </a>

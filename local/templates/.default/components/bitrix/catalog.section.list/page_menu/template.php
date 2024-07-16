@@ -30,5 +30,5 @@
 </div>
     <br >
   <? if (count($arResult['SECTIONS']) >= 5): ?> <button class="link_list-type2-btn">Показать полностью</button><?endif;?>
-    <br >  <br >
+<!--    <br >  <br >-->
 <? endif ?>

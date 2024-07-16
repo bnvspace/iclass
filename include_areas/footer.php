@@ -400,6 +400,12 @@
             padding-top: 2rem !important;
         }
     }
+    @media (max-width: 480px) {
+        .table-container {
+            overflow-x: auto; /* Добавляем горизонтальную прокрутку */
+        }
+    }
+
 </style>
 <script>
     $(function() {
@@ -564,4 +570,39 @@ endif;
 	$(document).ready(function(){
 		$(".yell-widget").attr('rel', 'nofollow')
 	})
+</script>
+<script>
+    // script.js
+
+    function wrapTablesWithContainer() {
+        var tables = document.querySelectorAll('table');
+        tables.forEach(function(table) {
+            // Проверка, есть ли уже контейнер
+            if (table.parentElement && table.parentElement.classList.contains('table-container')) {
+                return;
+            }
+
+            // Создание контейнера
+            var container = document.createElement('div');
+            container.classList.add('table-container');
+
+            // Оборачивание таблицы контейнером
+            table.parentNode.insertBefore(container, table);
+            container.appendChild(table);
+        });
+    }
+
+    function checkViewportWidth() {
+        if (window.innerWidth <= 768) { // Здесь можно изменить ширину, при которой срабатывает адаптация
+            wrapTablesWithContainer();
+        }
+    }
+
+    // Проверка при загрузке страницы
+    window.addEventListener('load', checkViewportWidth);
+
+    // Проверка при изменении размера окна
+    window.addEventListener('resize', checkViewportWidth);
+
+
 </script>

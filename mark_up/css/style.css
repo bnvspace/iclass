@@ -466,7 +466,7 @@ height:350px;}
 				content:'';
 			}
 			.menu_block-sub a:before { right:auto; left:0;}
-.content {}
+
 	.about_block {
 		background:#f7f7f7;
 		padding:40px 0 55px;
@@ -477,7 +477,7 @@ height:350px;}
 		.link_list {
 			text-align:center;
 			position:relative;
-			margin:0 0 30px;
+			/*margin:0 0 30px;*/
 			overflow:hidden;
 		}
 		.link_list-type2 {
