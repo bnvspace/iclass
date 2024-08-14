@@ -67,11 +67,13 @@ ul li p {
 .link_list-type2 {
     margin-bottom: 10px;
 }
-.link_list-type2-btn {margin: auto;
-    display: block;
-background: #455769;
-    box-shadow: 0 3px 0 #2b3945;
 
+.link_list-type2-btn,.link_list-type3-btn {
+    margin: auto;
+    display: block;
+    background: #455769;
+    box-shadow: 0 3px 0 #2b3945;
+    margin-bottom: 20px;
     font: 14px/33px 'PT Sans', sans-serif;
     height: 33px;
     padding: 0 20px;
@@ -83,10 +85,13 @@ background: #455769;
     transition: all 0.3s ease;
     border: 0;
 }
-.link_list-type2-btn:hover {    background: #2b3945;
+
+.link_list-type2-btn:hover,.link_list-type3-btn:hover {
+    background: #2b3945;
     color: #fff;
     box-shadow: 0 3px 0 #fff;
 }
+
 .content {
     padding-bottom: 0;
 }
@@ -135,51 +140,60 @@ background: #455769;
 }
 
 .parent_div_links {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .container_links {
-  flex: 1 1 15%;
-  display: flex;
-  margin: 5px 5px;
-  text-align: left;
+    flex: 1 1 15%;
+    display: flex;
+    margin: 5px 5px;
+    text-align: left;
 }
 
-.container_links p {text-align: left;}
+.container_links p {
+    text-align: left;
+}
 
-.link_img {object-fit: cover;
-   aspect-ratio: 4 / 3;
- width:100%;
+.link_img {
+    object-fit: cover;
+    aspect-ratio: 4 / 3;
+    width: 100%;
 }
 
 @media (max-width: 460px) {
-.container_links {
-  flex: 1 1 40%;
+    .container_links {
+        flex: 1 1 40%;
+    }
 }
-}
+
 /*11.07.24 - fix footer banners*/
-.footer_banners{
+.footer_banners {
     display: flex;
     justify-content: center;
 
     margin-top: 0;
 }
-.footer_banners div{
+
+.footer_banners div {
     margin-top: 0;
 }
-.item-two{
+
+.item-two {
     margin-right: 15px;
 }
+
 @media (max-width: 840px) {
     .footer_banners {
         width: auto;
     }
 }
-@media (max-width: 480px){
-    .footer_links{
+
+@media (max-width: 480px) {
+    .footer_links {
         margin-left: 0;
     }
+
     .footer_banners {
         display: flex;
         align-items: center;
@@ -190,7 +204,8 @@ background: #455769;
         flex-direction: column;
         margin-bottom: 50px;
     }
-    .item-two{
+
+    .item-two {
         margin-right: 0px;
     }
 }
