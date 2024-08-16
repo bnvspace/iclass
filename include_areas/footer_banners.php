@@ -23,27 +23,32 @@
         <a target="_blank" href="https://twitter.com/iclassru" class="tw_icon"></a>-->
     </div>
     <style>
-        .footer_banners{
+        .footer_banners {
             display: flex;
             justify-content: center;
 
             margin-top: 0;
         }
-        .footer_banners div{
+
+        .footer_banners div {
             margin-top: 0;
         }
-        .item-two{
+
+        .item-two {
             margin-right: 15px;
         }
+
         @media (max-width: 840px) {
             .footer_banners {
-                 width: auto;
+                width: auto;
             }
         }
-        @media (max-width: 480px){
-            .footer_links{
+
+        @media (max-width: 480px) {
+            .footer_links {
                 margin-left: 0;
             }
+
             .footer_banners {
                 display: flex;
                 align-items: center;
@@ -54,7 +59,8 @@
                 flex-direction: column;
                 margin-bottom: 50px;
             }
-            .item-two{
+
+            .item-two {
                 margin-right: 0px;
             }
         }
@@ -73,10 +79,12 @@
             </noscript>
         </div>
         <div class="footer_banner-item item-two">
-        <noindex>
-            <div id="yellrank" class=""></div>
-            <script data-skip-moving="true" src="//www.yell.ru/yellrank/yellrank.js/?cmp=6806587&w=true"></script>
-        </noindex>
+            <noindex>
+                <div id="yellrank">Рейтинг на
+                    <a href="https://www.yell.ru/spb/com/obrazovatelnyj-centr-aj-klass-na-sportivnoj_11959012/" target="_blank">Yell.ru</a>.
+                </div>
+                <script src="https://www.yell.ru/yellrank/yellrank.js/?cmp=11959012&sz=1&bg=1"></script>
+            </noindex>
         </div>
         <div class="footer_banner-item item-three">
             <noindex>
