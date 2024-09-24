@@ -1303,7 +1303,17 @@ RewriteRule	^secondaryeducation	https://www.iclass.ru/ [R=301,L]
 RewriteRule	^information/special/ay-klass-akkreditovannyy-tsentr-po-priyemu-i-podgotovke-k-ekzamenu-toefl-v-sankt-peterburge/	https://www.iclass.ru/ [R=301,L]
 RewriteRule	^information/special/osennyaya-aktsiya/	https://www.iclass.ru/ [R=301,L]
 RewriteRule	^secondary-education/ireland/Kings-Hospital-School/	https://www.iclass.ru/secondary-education/ireland/kings-hospital-school/ [R=301,L]
-
+#09.25
+RewriteRule	^events/seminars/6868/	https://www.iclass.ru/events/ [R=301,L]
+RewriteRule	^events/seminars/6871/	https://www.iclass.ru/events/ [R=301,L]
+RewriteRule	^higher-education/bbs/	https://www.iclass.ru/higher-education/ [R=301,L]
+RewriteRule	^higher-education/germany/the-berlin-school-of-economics-and-law-/	https://www.iclass.ru/higher-education/ [R=301,L]
+RewriteRule	^information/news/03-sentyabrya-den-otkrytykh-dverey/	https://www.iclass.ru/information/news/ [R=301,L]
+RewriteRule	^information/news/14-12/	https://www.iclass.ru/information/news/ [R=301,L]
+RewriteRule	^information/news/29-avgusta-/	https://www.iclass.ru/information/news/ [R=301,L]
+RewriteRule	^information/news/3-sentyabrya/	https://www.iclass.ru/information/news/ [R=301,L]
+RewriteRule	^language/<a%20href=/	https://www.iclass.ru/ [R=301,L]
+RewriteRule	^study_abroad_middle_ireland_blackrock/	https://www.iclass.ru/ [R=301,L]
 
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-l
