@@ -233,7 +233,7 @@
 .reviewer_text>div p{font:15px/18px "PT Sans", sans-serif;margin:0;}
 .reviewer_text>div:after{background:url(../images/review_text_arrow.png) no-repeat;height:32px;width:8px;display:block;position:absolute;left:-8px;top:50px;content:"";}
 .reviewer_text h3{}
-.service_list{margin:0 -2.4%;}
+.service_list{margin:0 -2.4%;display: flex;flex-wrap: wrap;}
 .service_item{width:28.35714285714286%;display:block;float:left;background:#f7f7f7;text-decoration:none;color:#2b3945 !important;font-size:15px;padding:10px;margin:0 2.4% 2.4%;}
 .service_item span{display:block;}
 .service_item-icon{background:#efefef;height:75px;line-height:75px;text-align:center;vertical-align:middle;margin:0 0 20px;}

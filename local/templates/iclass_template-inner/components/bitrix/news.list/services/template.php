@@ -33,9 +33,10 @@
 
     <? endforeach; ?>
 
-    <? foreach ($arResult["ITEMS"] as $arItem): ?>
-        <h2 id="service_<?=$arItem['ID']?>"><?=$arItem['NAME']?></h2>
-        <?=$arItem['DETAIL_TEXT']?>
-    <? endforeach ?>
+
 
 </div>
+<? foreach ($arResult["ITEMS"] as $arItem): ?>
+    <h2 id="service_<?=$arItem['ID']?>"><?=$arItem['NAME']?></h2>
+    <?=$arItem['DETAIL_TEXT']?>
+<? endforeach ?>
