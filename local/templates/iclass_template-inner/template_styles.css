@@ -209,3 +209,17 @@ ul li p {
         margin-right: 0px;
     }
 }
+.container_links img{
+    border-radius: 30%;
+    margin-bottom: 5px;
+    border: 2px solid #333333;
+}
+.container_links img:hover{
+    border: 2px solid #fe453d;
+}
+.container_links a:hover{
+    color: #fe453d;
+}
+.container_links p{
+    text-align: center;
+}

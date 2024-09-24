@@ -36,7 +36,7 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Услуги", 
+		"Помощь в поступлении в ВУЗ за границей",
 		"/company/services/", 
 		Array(), 
 		Array(), 

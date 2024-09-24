@@ -1302,6 +1302,7 @@ RewriteRule	^study_abroad_middle_ireland_rathdown/	https://www.iclass.ru/ [R=301
 RewriteRule	^secondaryeducation	https://www.iclass.ru/ [R=301,L]
 RewriteRule	^information/special/ay-klass-akkreditovannyy-tsentr-po-priyemu-i-podgotovke-k-ekzamenu-toefl-v-sankt-peterburge/	https://www.iclass.ru/ [R=301,L]
 RewriteRule	^information/special/osennyaya-aktsiya/	https://www.iclass.ru/ [R=301,L]
+RewriteRule	^secondary-education/ireland/Kings-Hospital-School/	https://www.iclass.ru/secondary-education/ireland/kings-hospital-school/ [R=301,L]
 
 
   RewriteCond %{REQUEST_FILENAME} !-f
