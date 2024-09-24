@@ -986,7 +986,6 @@ RewriteRule	^study_abroad_high_fi_arcada_university_of_applied/	https://www.icla
 RewriteRule	^study_abroad_high_gb_sheffield_hallam/	https://www.iclass.ru/	[R=301,L]
 RewriteRule	^higher-education/vengriya/BMU/	https://www.iclass.ru/higher-education/vengriya/bmu/	[R=301,L]
 RewriteRule	^higher-education/BMU/	https://www.iclass.ru/higher-education/vengria/bmu/
-RewriteRule	^higher-education/bbs/	https://www.iclass.ru/higher-education/vengria/bbs/
 RewriteRule	^higher-education/germany/gisma-university-of-applied-sciences/	https://www.iclass.ru/higher-education/germany/guoas/
 RewriteRule	^higher-education/germany/the-berlin-school-of-economics-and-law-/	https://www.iclass.ru/higher-education/
 
@@ -1115,7 +1114,6 @@ RewriteRule	^events/seminars/6973/	https://www.iclass.ru/events/ [R=301,L]
 RewriteRule	^events/seminars/7024/	https://www.iclass.ru/events/ [R=301,L]
 RewriteRule	^events/seminars/7028/	https://www.iclass.ru/events/ [R=301,L]
 RewriteRule	^faq/	https://www.iclass.ru/ [R=301,L]
-RewriteRule	^higher-education/bbs/ https://www.iclass.ru/higher-education/vengriya/bbs/ [R=301,L]
 RewriteRule	^higher-education/bsbi/ https://www.iclass.ru/higher-education/vengriya/bbs/ [R=301,L]
 RewriteRule	^higher-education/cesar-ritz-colleges/	https://www.iclass.ru/higher-education/switzerland/cesar-ritz-colleges/ [R=301,L]
 RewriteRule	^higher-education/eserp-business-school/	https://www.iclass.ru/higher-education/spain/eserp-business-school/ [R=301,L]
@@ -1185,7 +1183,6 @@ RewriteRule	^faq/	https://www.iclass.ru/ [R=301,L]
 RewriteRule	^higher-education/BMU/	https://www.iclass.ru/higher-education/ [R=301,L]
 RewriteRule	^higher-education/aalto-university/	https://www.iclass.ru/higher-education/ [R=301,L]
 RewriteRule	^higher-education/arcada-university-of-applied-sciences/	https://www.iclass.ru/higher-education/ [R=301,L]
-RewriteRule	^higher-education/bbs/	https://www.iclass.ru/higher-education/ [R=301,L]
 RewriteRule	^higher-education/bmu/	https://www.iclass.ru/higher-education/ [R=301,L]
 RewriteRule	^higher-education/bsbi/	https://www.iclass.ru/higher-education/ [R=301,L]
 RewriteRule	^higher-education/central-ostrobothnia-university-of-applied-sciences/	https://www.iclass.ru/higher-education/ [R=301,L]
@@ -1304,16 +1301,24 @@ RewriteRule	^information/special/ay-klass-akkreditovannyy-tsentr-po-priyemu-i-po
 RewriteRule	^information/special/osennyaya-aktsiya/	https://www.iclass.ru/ [R=301,L]
 RewriteRule	^secondary-education/ireland/Kings-Hospital-School/	https://www.iclass.ru/secondary-education/ireland/kings-hospital-school/ [R=301,L]
 #09.25
+RewriteRule	^study_abroad_middle_ireland_blackrock/	https://www.iclass.ru/ [R=301,L]
 RewriteRule	^events/seminars/6868/	https://www.iclass.ru/events/ [R=301,L]
 RewriteRule	^events/seminars/6871/	https://www.iclass.ru/events/ [R=301,L]
-RewriteRule	^higher-education/bbs/	https://www.iclass.ru/higher-education/ [R=301,L]
-RewriteRule	^higher-education/germany/the-berlin-school-of-economics-and-law-/	https://www.iclass.ru/higher-education/ [R=301,L]
-RewriteRule	^information/news/03-sentyabrya-den-otkrytykh-dverey/	https://www.iclass.ru/information/news/ [R=301,L]
-RewriteRule	^information/news/14-12/	https://www.iclass.ru/information/news/ [R=301,L]
 RewriteRule	^information/news/29-avgusta-/	https://www.iclass.ru/information/news/ [R=301,L]
+RewriteRule	^information/news/03-sentyabrya-den-otkrytykh-dverey/	https://www.iclass.ru/information/news/ [R=301,L]
 RewriteRule	^information/news/3-sentyabrya/	https://www.iclass.ru/information/news/ [R=301,L]
-RewriteRule	^language/<a%20href=/	https://www.iclass.ru/ [R=301,L]
-RewriteRule	^study_abroad_middle_ireland_blackrock/	https://www.iclass.ru/ [R=301,L]
+RewriteRule	^information/news/14-12/	https://www.iclass.ru/information/news/ [R=301,L]
+RewriteRule ^higher-education/germany/the-berlin-school-of-economics-and-law/?$ https://www.iclass.ru/higher-education/ [R=301,L]
+RewriteRule ^language/<a\ href=/ https://www.iclass.ru/ [R=301,L]
+RewriteRule	^higher-education/bbs/	https://www.iclass.ru/higher-education/ [R=301,L]
+RewriteRule ^higher-education/germany/iu/IU/ https://www.iclass.ru/higher-education/germany/iu/ [R=301,L]
+RewriteRule ^higher-education/netherland/fenerbahce-university/ https://www.iclass.ru/higher-education/turkey/fenerbahce-university/ [R=301,L]
+RewriteRule ^higher-education/vengria/uop/ https://www.iclass.ru/higher-education/vengriya/uop/ [R=301,L]
+RewriteRule ^higher-education/vengria/ https://www.iclass.ru/higher-education/vengriya/ [R=301,L]
+RewriteRule ^higher-education/great-britain/xi-an-jiaotong-liverpool-university/ https://www.iclass.ru/higher-education/kitay/xi-an-jiaotong-liverpool-university/ [R=301,L]
+RewriteRule ^higher-education/vengria/uodun/ https://www.iclass.ru/higher-education/vengriya/uodun/ [R=301,L]
+RewriteRule ^higher-education/vengria/uod/ https://www.iclass.ru/higher-education/vengriya/uod/ [R=301,L]
+
 
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-l

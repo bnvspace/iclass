@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "IClass - комплексное сопровождение поступающих зарубежом");
+$APPLICATION->SetPageProperty("title", "Услуги | Образовательный центр «Ай Класс»");
 $APPLICATION->SetPageProperty("description", "IClass - сопровождение поступающих в зарубежные вузы, помощь абитуриентам, студентам и слушателям курсов.");
 $APPLICATION->SetTitle("Наши услуги");
 ?><h2>мы предоставляем помощь по следующим вопросам:</h2>

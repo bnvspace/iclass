@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "IClass - комплексное сопровождение поступающих зарубежом");
+$APPLICATION->SetPageProperty("title", "Варианты оплаты | Образовательный центр «Ай Класс»");
 $APPLICATION->SetPageProperty("description", "IClass - сопровождение поступающих в зарубежные вузы, помощь абитуриентам, студентам и слушателям курсов.");
 $APPLICATION->SetTitle("Оплата");
 ?><h2>Оплата услуг Образовательного центра Ай Класс</h2>
