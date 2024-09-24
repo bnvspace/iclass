@@ -85,4 +85,9 @@ if(isset($_GET['t'])){
 	false
 );?>
 </div>
+
+<?php if (isset($_GET['a'])) : ?>
+
+<?php endif; ?>
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

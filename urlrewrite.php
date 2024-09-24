@@ -56,7 +56,7 @@ $arUrlRewrite=array (
     'PATH' => '/information/the-choice-of-profession/title.php',
     'SORT' => 100,
   ),
-  28 => 
+  37 => 
   array (
     'CONDITION' => '#^/secondary-education/#',
     'RULE' => '',
@@ -80,20 +80,12 @@ $arUrlRewrite=array (
     'PATH' => '/information/news/index.php',
     'SORT' => 100,
   ),
-  27 => 
+  38 => 
   array (
     'CONDITION' => '#^/higher-education/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/higher-education/index.php',
-    'SORT' => 100,
-  ),
-  11 => 
-  array (
-    'CONDITION' => '#^/professional/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/professional/index.php',
     'SORT' => 100,
   ),
   12 => 
@@ -104,7 +96,15 @@ $arUrlRewrite=array (
     'PATH' => '/content/news/index.php',
     'SORT' => 100,
   ),
-  24 => 
+  39 => 
+  array (
+    'CONDITION' => '#^/professional/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/professional/index.php',
+    'SORT' => 100,
+  ),
+  36 => 
   array (
     'CONDITION' => '#^/language/#',
     'RULE' => '',
